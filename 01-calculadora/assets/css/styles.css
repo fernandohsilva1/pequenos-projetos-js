@@ -1,0 +1,104 @@
+:root {
+    --main-border-color: rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.8rem;
+
+}
+
+#calculadora {
+    align-items: center;
+    box-shadow: 1px 1px 4px 4px var(--main-border-color);
+    border-radius: 1px;
+    height: 400px;
+    padding: 25px;
+    width: 400px;
+}
+
+#entradas {
+    border: 0.5px solid grey;
+    border-radius: 1px;
+    box-shadow: 0px 1px 0px 0px var(--main-border-color);
+    font-size: 2.5rem;
+    height: 55px;
+    overflow-x: auto;
+    margin: -10px;
+    padding-right: 16px;
+    padding-top: 12px;
+    text-align: right;
+    transition: all 1.5s ease-in-out;
+    width: 400px;
+}
+
+.content-container {
+    margin-left: 2px;
+}
+
+
+#lado-esquerdo {
+    display: inline-block;
+}
+
+#igual {
+    background: deepskyblue;
+    cursor: pointer;
+    display: inline-block;
+    height: 221px;
+    margin: 20px 2px 0px;
+    position: absolute;
+    text-align: center;
+    width: 95px;
+}
+
+#soma {
+    border: 1px solid var(--main-border-color);
+    background-color: #f9f9f9;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 54.2px;
+    margin: -64px -200px 0px 305px;
+    width: 92px;
+}
+
+.btns-especiais div,
+.numeros div {
+    border: 0.5px solid var(--main-border-color);
+    border-radius: 2px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    display: inline-block;
+    margin: 20px 12px 8px -8px;
+    padding: 10px;
+    text-align: center;
+    width: 70px;
+}
+
+#soma>span {
+    margin: 10px 36px;
+    position: absolute;
+}
+
+#soma:hover {
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    background-color: #f1f1f1;
+}
+
+.igual:hover {
+    background-color: mediumblue;
+    transition: all 0.5s ease-in-out;
+}
+
+#igual>span {
+    color: white;
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 94px;
+}
+
+.btns-especiais div:hover,
+.numeros div:hover {
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    background-color: #f1f1f1;
+}

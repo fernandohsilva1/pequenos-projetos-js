@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de hipotenusa</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <div id="calculadora">
+        <div id="entradas"></div>
+        <div class="content-container">
+            <div id="lado-esquerdo">
+                <div class="numeros">
+                    <div onclick="insert('7')">7</div>
+                    <div onclick="insert('8')">8</div>
+                    <div onclick="insert('9')">9</div>
+                </div>
+                <div class="numeros">
+                    <div onclick="insert('4')">4</div>
+                    <div onclick="insert('5')">5</div>
+                    <div onclick="insert('6')">6</div>
+                </div>
+                <div class="numeros">
+                    <div onclick="insert('1')">1</div>
+                    <div onclick="insert('2')">2</div>
+                    <div onclick="insert('3')">3</div>
+                </div>
+                <div class="btns-especiais">
+                    <div onclick="insert('0')">0</div>
+                    <div id="ponto" onclick="insert('.')">.</div>
+                    <div id="limpar">C</div>
+                </div>
+                <div id="soma" onclick="insert('+')"><span>+</span></div>
+            </div>
+            <div id="igual"><span>=</span></div>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
